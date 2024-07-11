@@ -2,10 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:neon_academy/comedy_club.dart';
 import 'package:neon_academy/homepage_screen.dart';
 import 'package:neon_academy/awesome_gallery_screen.dart';
+import 'package:neon_academy/pageView_screen.dart';
+import 'package:neon_academy/segmentControl_screen.dart';
 import 'package:neon_academy/steppers_screen.dart';
 import 'package:neon_academy/switch_screen.dart';
 import 'package:neon_academy/textField_screen.dart';
 
+import 'alert_Dialog_screen.dart';
+import 'circular_Progress_Indicators_screen.dart';
 import 'dragon_slider.dart';
 
 void main() {
@@ -22,10 +26,8 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
 
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
       ),
-      home: SteppersScreen(),
+      home: CircularProgressIndicatorsScreen(),
     );
   }
 }
